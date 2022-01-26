@@ -1,0 +1,29 @@
+{
+  "name": "ccs_request_tracker_apis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "proxy": "http://localhost:3000",
+  "author": "Prabu Lakshmanan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "date-and-time": "^2.0.1",
+    "dotenv": "^8.2.0",
+    "exceljs": "^4.0.1",
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "mongodb": "^4.2.1",
+    "mongoose": "^6.0.14",
+    "morgan": "^1.10.0",
+    "node-adodb": "^5.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
